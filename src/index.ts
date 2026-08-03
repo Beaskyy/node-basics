@@ -1,1 +1,3 @@
-console.log("Beasky")
+import crypto from "node:crypto";
+
+console.log(crypto.randomUUID());
